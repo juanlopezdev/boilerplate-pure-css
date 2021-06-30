@@ -1,0 +1,36 @@
+/* Toggle  */
+.itk-toggle {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  height: 27px;
+  position: relative;
+}
+
+.itk-toggle__bar {
+  background-color: var(--itk-color-toggle);
+  border-radius: 2px;
+  display: block;
+  height: 5px;
+  position: absolute;
+  width: 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.itk-toggle__bar:nth-child(1) {
+  top: 0px;
+}
+
+.itk-toggle__bar:nth-child(2) {
+  top: 11px;
+}
+
+.itk-toggle__bar:nth-child(3) {
+  bottom: 0px;
+}
+
+/* Toggle active */
+.itk-toggle.itk-js-active .itk-toggle__bar:nth-child(2),
+.itk-toggle:hover .itk-toggle__bar:nth-child(2) {
+  transform: translateX(10px);
+}

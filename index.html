@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Template</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="itk-page-home">
+  <header class="itk-header">
+    <div class="itk-toggle" id="btn-open-menu">
+      <span class="itk-toggle__bar"></span>
+      <span class="itk-toggle__bar"></span>
+      <span class="itk-toggle__bar"></span>
+    </div>
+    <img class="itk-header__logo" src="img/logo.svg" alt="Logo test">
+  </header>
+
+  <main class="itk-main itk-container itk-py-4 itk-px-1">
+    <p class="itk-mt-0">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus mattis justo, eget lacinia arcu
+      viverra eget. Vivamus accumsan tincidunt sapien nec venenatis. Vivamus sit amet nisi scelerisque, malesuada
+      purus sit amet, condimentum felis. Aenean ornare libero non vehicula luctus. Aliquam erat volutpat. In
+      ultricies dapibus nisi. Aenean sagittis turpis eget magna imperdiet blandit. Quisque eget massa est. Donec
+      sit amet pulvinar libero.
+    </p>
+
+    <p>
+      Etiam fringilla neque vel dui tempor pretium. Donec venenatis fermentum dictum. Cras dictum ac massa sit amet
+      vehicula. Proin tortor erat, aliquet ut nunc nec, pulvinar sodales felis. Ut commodo est a metus tincidunt,
+      posuere ultricies neque iaculis. Morbi lacinia hendrerit urna at viverra. Class aptent taciti sociosqu ad
+      litora torquent per conubia nostra, per inceptos himenaeos. Ut blandit nisi ut sapien lobortis consectetur a
+      ac eros.
+    </p>
+
+    <div class="itk-d-flex-center itk-my-2 itk-my-tablet-4 itk-my-desktop-5">
+      <button class="itk-btn" id="btn-open-modal" type="button">OPEN MODAL</button>
+    </div>
+
+    <p>
+      Pellentesque orci lectus, rutrum eu malesuada ut, sodales pellentesque magna. In et pretium mi. Curabitur eu
+      congue
+      dui. Nulla facilisi. Duis ut ipsum dictum, rutrum lectus quis, scelerisque purus. Pellentesque et orci sed mi
+      convallis egestas eu et lorem. Donec et sagittis eros.
+    </p>
+
+    <p>
+      Suspendisse at sapien libero. Praesent ultricies mauris sed felis interdum, eget semper risus euismod. Proin
+      vehicula scelerisque enim, non semper mi malesuada eu. Sed at orci et mauris feugiat venenatis. In vehicula odio a
+      orci tristique, eget eleifend ligula accumsan. Curabitur ut nisl magna. Aliquam erat volutpat. Sed et orci
+      condimentum, blandit odio sit amet, ultrices orci.
+    </p>
+
+    <p>
+      In lacinia luctus pharetra. Sed tempor eu lectus eu tempor. In odio nunc, tincidunt et ante maximus, sagittis
+      lacinia metus. Curabitur quis pulvinar nisl. Aliquam viverra id nisi non vulputate. Sed sit amet dignissim ante,
+      vitae pulvinar dolor. Vestibulum facilisis consequat quam, eu congue eros ultrices eget. Donec egestas, lacus nec
+      ornare molestie, urna augue faucibus sem, quis cursus tellus nulla in est. Nullam scelerisque nec nisi sit amet
+      euismod.
+    </p>
+
+  </main>
+
+  <div class="itk-modal" id="modal">
+    <div class="itk-modal__dialog">
+      <div class="itk-modal__body">
+        <div class="itk-modal__dismiss" id="btn-close-modal">
+          <img src="img/close.svg" alt="Cerrar ventana">
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus mattis justo, eget lacinia arcu viverra
+          eget. Vivamus accumsan tincidunt sapien nec venenatis. Vivamus sit amet nisi scelerisque, malesuada purus sit
+          amet, condimentum felis. Aenean ornare libero non vehicula luctus. Aliquam erat volutpat. In ultricies dapibus
+          nisi. Aenean sagittis turpis eget magna imperdiet blandit. Quisque eget massa est. Donec sit amet pulvinar
+          libero.
+        </p>
+        <p>
+          Etiam fringilla neque vel dui tempor pretium. Donec venenatis fermentum dictum. Cras dictum ac massa sit amet
+          vehicula. Proin tortor erat, aliquet ut nunc nec, pulvinar sodales felis. Ut commodo est a metus tincidunt,
+          posuere ultricies neque iaculis. Morbi lacinia hendrerit urna at viverra. Class aptent taciti sociosqu ad
+          litora
+          torquent per conubia nostra, per inceptos himenaeos. Ut blandit nisi ut sapien lobortis consectetur a ac eros.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="itk-modal itk-nav" id="menu">
+    <div class="itk-modal__dialog">
+      <div class="itk-modal__body">
+        <div class="itk-modal__dismiss" id="btn-close-menu">
+          <img src="img/close.svg" alt="Cerrar ventana">
+        </div>
+        <nav class="itk-nav__links">
+          <a href="#" title="HOME">HOME</a>
+          <a href="#" title="ABOUT US">ABOUT US</a>
+          <a href="#" title="NEWS">NEWS</a>
+          <a href="#" title="GALLERY">GALLERY</a>
+          <a href="#" title="CONTACT">CONTACT</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

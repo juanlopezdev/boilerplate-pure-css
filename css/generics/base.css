@@ -1,0 +1,21 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 15px;
+  font-family: var(--itk-font-primary);
+}
+
+p {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+/* Mobile Devices (< 600px) */
+@media screen and (max-width: 599px) {
+  p {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+}

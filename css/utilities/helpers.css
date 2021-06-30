@@ -1,0 +1,39 @@
+.itk-d-flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.itk-my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.itk-mt-0 {
+  margin-top: 0rem;
+}
+
+.itk-px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.itk-py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Tablet Devices (> 600px) */
+@media screen and (min-width: 600px) {
+  .itk-my-tablet-4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/* Desktop Devices (> 992px) */
+@media screen and (min-width: 992px) {
+  .itk-my-desktop-5 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}

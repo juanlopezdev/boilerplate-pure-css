@@ -1,0 +1,22 @@
+.itk-header {
+  background-color: var(--itk-color-primary);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.itk-header .itk-toggle {
+  left: 1rem;
+  position: absolute;
+  top: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Desktop Devices (> 992px) */
+@media screen and (min-width: 992px) {
+  .itk-toggle {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

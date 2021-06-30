@@ -1,0 +1,28 @@
+/* Nav (This component inherits from .itk-modal )*/
+.itk-nav {
+}
+
+.itk-nav__links { 
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.itk-nav__links a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.itk-nav__links a:hover {
+  color: var(  --itk-color-primary-dark)
+}
+
+/* Tablet Devices (> 600px) */
+@media screen and (min-width: 600px) {
+  .itk-nav__links a {
+    padding: 0.5rem;
+  }
+}
